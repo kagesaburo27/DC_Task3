@@ -28,10 +28,6 @@ public class WordCounter {
       while (matcher.find()){
       Text w = new Text(matcher.group());
       context.write(w,one);
-     // String[] words = value1.split("([^\\w&&[^\\-']]+)");
-     // for (String word : words){
-      //Text w = new Text(word);
-        //context.write(w, one);
     }
   }
   }
